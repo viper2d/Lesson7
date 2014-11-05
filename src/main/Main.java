@@ -39,7 +39,7 @@ public class Main {
             NOTE: you should refactor your Cat and Mouse classes
          */
 //        cat.eat(); // "Tom ate some snacks"
-//        mouse.eat(); // "Jerry ate some snacks"
+        mouse.eat(); // "Jerry ate some snacks"
     }
 
     /* Output:
