@@ -28,13 +28,30 @@ public class Cat {
 
     public void capture(Mouse mousename) {
 
-        if (energy > 0) {
+        if (isTyred()) {
+            System.out.println(name + " is tyred, need to sleep");
+        } else {
             System.out.println(name + " trying to capture " + mousename.getMouseName());
             energy--;
-        } else {
-            System.out.println(name + " is tyred, need to sleep");
         }
+    }
 
+    private boolean isTyred() {
+        if (energy == 0) {
+            return true;
+        }
+        return false;
+    }
+
+    public void sleep() {
+        if (energy == 0) {
+            System.out.println(name + " went to sleep");
+            energy++;
+        }
+        else if (energy < 2) {
+            System.out.println(name + " is sleeping");
+            energy++;
+        }
 
     }
 

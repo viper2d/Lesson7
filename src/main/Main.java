@@ -21,9 +21,9 @@ public class Main {
          */
         cat.capture(mouse); // "Tom trying to capture Jerry"
         cat.capture(mouse); // "Tom is tyred, need to sleep" (Tom's energy is gone)
-//        cat.sleep(); // "Tom went to sleep"
-//        cat.sleep(); // "Tom can't go sleep, he is already sleeping"
-//        cat.capture(mouse); // "Tom trying to capture Jerry"
+        cat.sleep(); // "Tom went to sleep"
+        cat.sleep(); // "Tom can't go sleep, he is already sleeping"
+        cat.capture(mouse); // "Tom trying to capture Jerry"
 
         /* Hard */
         /*
