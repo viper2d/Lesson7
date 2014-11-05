@@ -8,7 +8,6 @@ public abstract class Animal {
         return name;
     }
 
-
     public void eat(){
         System.out.println(getName() + " ate some snacks");
     }

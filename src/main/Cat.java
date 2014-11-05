@@ -1,6 +1,6 @@
 package main;
 
-public class Cat {
+public class Cat extends Animal{
 
     public String name;
     public String color;
@@ -27,7 +27,6 @@ public class Cat {
     }
 
     public void capture(Mouse mousename) {
-
         if (isTyred()) {
             System.out.println(name + " is tyred, need to sleep");
         } else {

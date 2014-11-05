@@ -38,7 +38,7 @@ public class Main {
             Create abstract class Animal, create eat method which will print: "<cat or mouse name> went sleep"
             NOTE: you should refactor your Cat and Mouse classes
          */
-//        cat.eat(); // "Tom ate some snacks"
+        cat.eat(); // "Tom ate some snacks"
         mouse.eat(); // "Jerry ate some snacks"
     }
 
