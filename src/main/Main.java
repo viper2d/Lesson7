@@ -31,7 +31,7 @@ public class Main {
             method describe() - will print your description about how Jerry is look like (1 or 2 sentences)
             e.g. "Jerry is small brown mouse which likes mozzarella cheese"
          */
-//        mouse.describe(); // "Jerry is small brown mouse which likes mozzarella cheese"
+       mouse.describe(); // "Jerry is small brown mouse which likes mozzarella cheese"
 
         /* Very Hard */
         /*
