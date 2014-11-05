@@ -2,7 +2,7 @@ package main;
 
 public class Mouse {
 
-    public String mousename;
+    private String mousename;
 
     public String getMouseName() {
         return mousename;

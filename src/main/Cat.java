@@ -4,6 +4,7 @@ public class Cat {
 
     public String name;
     public String color;
+    int energy = 2;
 
     public Cat(String name) {
         this.name = name;
@@ -22,11 +23,19 @@ public class Cat {
     }
 
     public void lookForMouse() {
-        System.out.println("Tom is looking for a mouse.");
+        System.out.println(name + " is looking for a mouse.");
     }
 
     public void capture(Mouse mousename) {
-        System.out.println(name + " trying to capture " + mousename.getMouseName());
+
+        if (energy > 0) {
+            System.out.println(name + " trying to capture " + mousename.getMouseName());
+            energy--;
+        } else {
+            System.out.println(name + " is tyred, need to sleep");
+        }
+
+
     }
 
 }

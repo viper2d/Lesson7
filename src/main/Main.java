@@ -19,8 +19,8 @@ public class Main {
             modify .capture() method: add method isTyred() - which checks if cat still have energy, if yes try to catch, if not print: "Tom is tired, he needs to sleep"
             method sleep() refills energy level back to 2 (if call more than 1 time sleep() print that Tom is already sleeps
          */
-//        cat.capture(mouse); // "Tom trying to capture Jerry"
-//        cat.capture(mouse); // "Tom is tyred, need to sleep" (Tom's energy is gone)
+        cat.capture(mouse); // "Tom trying to capture Jerry"
+        cat.capture(mouse); // "Tom is tyred, need to sleep" (Tom's energy is gone)
 //        cat.sleep(); // "Tom went to sleep"
 //        cat.sleep(); // "Tom can't go sleep, he is already sleeping"
 //        cat.capture(mouse); // "Tom trying to capture Jerry"
